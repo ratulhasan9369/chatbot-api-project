@@ -2,8 +2,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import axios from "axios";
-import TypingAnimation from "@/components/typingAnimation";
-import OpenAI from "openai";
+import TypingAnimation from "@/components/TypingAnimation";
 
 export default function Home() {
   const [inputValue, setInputValue] = useState ('');
